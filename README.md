@@ -6,4 +6,4 @@ The idea is that with many development projects running on my workstation it's p
 
 With this image I can get in my development directory (where I will write the application dockerfile) and run: 
 
-docker run -t -i -v $(pwd):/app scotu/django:1.10.1-python3.5.2-alpine django-admin.py startproject project_name
+    docker run -t -i -v $(pwd):/app scotu/django:1.10.1-python3.5.2-alpine django-admin.py startproject project_name
