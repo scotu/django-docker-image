@@ -10,6 +10,6 @@ The idea is that with many development projects running on my workstation it's p
 
 With this image I can `cd` in my development directory (where I will write the application Dockerfile) and run: 
 
-    docker run -t -i -v $(pwd):/app scotu/django:1.10.1-python3.5.2-alpine django-admin.py startproject project_name
+    docker run -t -i -v $(pwd):/app scotu/django:1.11.1-python3.6.1-alpine django-admin.py startproject project_name
 
 to generate my project files before writing my app's real Dockerfile
